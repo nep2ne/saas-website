@@ -11,25 +11,146 @@
   <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <div>
-      <img src="images/adverte-logo.svg" alt="adverte logo">
-      <nav>
-        <ul>
-          <li id="tour">Tour</li>
-          <li id="pricing">Pricing</li>
-          <li id="sign-up">Sign-up</li>
-        </ul>
-      </nav>
+  <header class="grid grid-middle">
+    <div class="logo-left unit xs-1 m-1-3 l-1-3">
+      <div class="grid">
+        <img class="unit xs-1-3 m-1-3 l-1-3 logo push-0 img-flex" src="images/adverte-logo.svg" alt="Adverte Logo">
+      </div>
     </div>
+    <nav class="unit xs-1 m-2-3 l-2-3 pad-top-quarter mega">
+      <ul class="push-1-4 list-group-inline">
+        <li><a class="island-1-4 gutter-half current list-group-item" href="#">About</a></li>
+        <li><a class="island-1-4 gutter-half list-group-item" href="#">Tour</a></li>
+        <li><a class="island-1-4 gutter-half list-group-item" href="#">Partners</a></li>
+        <li><a class="island-1-4 gutter-half list-group-item" href="#">Pricing</a></li>
+        <li><a class="island-1-4 gutter-half list-group-item" href="#"><span class="btn green">Sign up</span></a></li>
+      </ul>
+    </nav>
+  </header>
 
     <div>
       <img class="img-flex" src="images/banner.jpg" alt="banner background illustration">
       <h1>Check out these amazing features!</h1>
     </div>
+  </header>
+
+  <main>
+    <section>
+      <table>
+        <caption>Plan Features</caption>
+        <thead>
+          <tr>
+            <th scope="col" colspan="2"></th>
+            <th scope="col">Description</th>
+            <th scope="col">Free plan</th>
+            <th scope="col">Basic plan</th>
+            <th scope="col">Premium plan</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <th><img src="images/icon-market-analysis.svg" alt="icon to represent market analysis"></img></th>
+            <td>Market Analysis</td>
+            <td>Helps you analyze your market to identify possible advertizing opportunities, strategies and methodologies.</td>
+            <td>3 customer profiles</td>
+            <td>5 customer profiles</td>
+            <td>10 customer profiles</td>
+          </tr>
+          <tr>
+            <th><img src="images/icon-custom-marketing.svg" alt="icon to represent custom marketing"></img></th>
+            <td>Custom Marketing</td>
+            <td>Helps you identify your current customer base, and define areas for potential market growth and expansion.</td>
+            <td>5 marketing strategies</td>
+            <td>8 marketing strategies</td>
+            <td>10 marketing strategies</td>
+          </tr>
+          <tr>
+            <th><img src="images/icon-visual-reporting.svg" alt="icon to represent visual reporting"></img></th>
+            <td>Visual Reporting</td>
+            <td>Helps you generate simple, attractive, accessible visual reports to track your advertizing spending, progress, and impact.</td>
+            <td>
+              <div>
+                <ul>
+                  <li>3 visual reports per month</li>
+                </ul>
+              </div>
+            </td>
+            <td>
+              <div>
+                <ul>
+                  <li>8 visual reports per month</li>
+                </ul>
+              </div>
+            </td>
+            <td>
+              <div>
+                <ul>
+                  <li>unlimited brand-specific visual reports</li>
+                </ul>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <th><img src="images/icon-visual-reporting.svg" alt="icon to represent visual reporting"></img></th>
+            <td>Impact Analysis</td>
+            <td>Helps you fine-tune your advertizing approach for future growth and further expansion.</td>
+            <td>
+              <div>
+                <ul>
+                  <li>no consultation</li>
+                  <li>no impact analysis</li>
+                </ul>
+              </div>
+            </td>
+            <td>
+              <div>
+                <ul>
+                  <li>one-on-one consultation</li>
+                  <li>no impact analysis</li>
+                </ul>
+              </div>
+            </td>
+            <td>
+              <div>
+                <ul>
+                  <li>ongoing consultation</li>
+                  <li>ongoing impact analysis</li>
+                </ul>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+
+        <tfoot>
+          <tr>
+            <th colspan="3">Price</th>
+            <td>$0/mo</td>
+            <td>$20/mo</td>
+            <td>$50/mo</td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
 
     <div>
       <span class="btn">Sign up!</span>
-  </header>
+    </div>
+  </main>
+
+  <footer>
+    <div>
+      <img src="images/adverte-logo.svg" alt="adverte logo">
+      <img src="images/.svg" alt="small graphic swoosh">
+    </div>
+
+    <div>
+      <img src="images/.svg" alt="social media badge for Facebook">
+      <img src="images/.svg" alt="social media badge for Twitter">
+      <img src="images/.svg" alt="social media badge for Instagram">
+    </div>
+
+    <p>Copyright info</p>
+  </footer>
 </body>
 </html>

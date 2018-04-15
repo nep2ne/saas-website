@@ -1,3 +1,90 @@
 html {
   font-family: "Nunito Sans", sans-serif;
+  color: #003354;
 }
+
+nav li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+a {
+  color: #003354;
+  display: block;
+  text-decoration: none;
+}
+
+.banner {
+  position: relative;
+  text-align: center;
+  max-height: 200em;
+  overflow: hidden;
+}
+
+.banner-content {
+  position: absolute;
+  bottom: .25em;
+  left: 2.5em;
+  text-align: center;
+}
+
+.transparent-white {
+  background-color: rgba(255,255,255,.75);
+  color: #003354;
+  border-radius: 10px;
+}
+
+.lightblue {
+  background-color: #92b4d7;
+  color: #fff;
+}
+
+.darkblue {
+  background-color: #003354;
+  color: #fff;
+}
+
+.teal {
+  background-color: #226170;
+  color: #fff;
+}
+
+.green {
+  background-color: #98ca3d;
+  color: #fff;
+  border-radius: 4px;
+  border: none;
+}
+
+.logo {
+  max-height: 3em;
+}
+
+.btn:hover {
+  background-color: #003354;
+}
+
+.staff-photo {
+  max-height: 25em;
+  max-width: 20em;
+}
+
+.custom-plan {
+  max-width: 250px;
+}
+
+.white {
+  background-color: #fff;
+  color: #003354;
+  border-radius: 10px;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .logo-left {
+    text-align: left;
+  }
+
+  nav {
+    text-align: right;
+  }
