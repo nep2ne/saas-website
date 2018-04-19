@@ -79,6 +79,11 @@ a {
   border-radius: 10px;
 }
 
+.partner-logo {
+  max-width: 205px;
+  max-height: 400px;
+}
+
 @media only screen and (min-width: 38em) {
 
   .logo-left {
@@ -88,3 +93,20 @@ a {
   nav {
     text-align: right;
   }
+}
+
+input,
+textarea,
+select,
+[type="radio"] + label::before,
+[type="checkbox"] + label::before {
+  border: 2px solid #003354;
+}
+
+fieldset {
+  border-top: none;
+}
+
+.textbox {
+  height: 10em;
+}
