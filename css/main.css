@@ -32,20 +32,20 @@ a {
 
 .banner {
   text-align: center;
-  /* position: relative; */
+  position: relative;
+}
+
+.banner-content {
+  position: absolute;
+  width: 90%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .container {
-  /* overflow: hidden; */
-}
-
-
-
-.banner-content {
-  /* display: inline-block; */
-  width: 90%;
-  /* position: absolute; */
-  /* bottom: 2em; */
+  max-height: 400px;
+  overflow: hidden;
 }
 
 .transparent-white {
@@ -57,6 +57,10 @@ a {
 .lightblue {
   background-color: #92b4d7;
   color: #fff;
+}
+
+.table-icon {
+  max-height: 3em;
 }
 
 .darkblue {
@@ -123,6 +127,7 @@ fieldset {
 nav li {
   width: 100%;
 }
+
 @media only screen and (min-width: 38em) {
 
   .logo-left {
@@ -135,16 +140,5 @@ nav li {
 
   nav li {
     width: auto;
-  }
-
-  .banner {
-    position: relative;
-  }
-
-  .banner-content {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
   }
 }
