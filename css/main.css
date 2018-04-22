@@ -103,6 +103,10 @@ a {
   border-radius: 10px;
 }
 
+.hidden-text {
+  color: #fff;
+}
+
 .partner-logo {
   max-width: 205px;
   max-height: 400px;
@@ -122,6 +126,18 @@ fieldset {
 
 .textbox {
   height: 10em;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.table-width {
+  min-width: 40em;
+}
+
+.card-width {
+  max-width: 13em;
 }
 
 nav li {
