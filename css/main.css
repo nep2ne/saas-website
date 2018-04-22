@@ -10,6 +10,7 @@ header {
 
 nav li {
   list-style-type: none;
+  width: 100%;
 }
 
 a {
@@ -49,7 +50,7 @@ a {
 }
 
 .transparent-white {
-  background-color: rgba(255,255,255,.75);
+  background-color: rgba(255, 255, 255, .75);
   color: #003354;
   border-radius: 10px;
 }
@@ -138,10 +139,6 @@ table {
 
 .card-width {
   max-width: 13em;
-}
-
-nav li {
-  width: 100%;
 }
 
 @media only screen and (min-width: 38em) {
