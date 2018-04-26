@@ -140,7 +140,8 @@ table {
 }
 
 .card-width {
-  max-width: 13em;
+  max-width: 14em;
+  max-height: 27em;
 }
 
 @media only screen and (min-width: 38em) {
